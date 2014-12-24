@@ -1,0 +1,9 @@
+[submodule "d3-timeline"]
+	path = d3-timeline
+	url = git@github.com:ethoinformatics/d3-timeline
+[submodule "ethoinfo-framework"]
+	path = ethoinfo-framework
+	url = git@github.com:ethoinformatics/ethoinfo-framework
+[submodule "ethoinfo-project-app"]
+	path = ethoinfo-project-app
+	url = git@github.com:ethoinformatics/ethoinfo-project-app
