@@ -6,6 +6,9 @@ failure(){
 	echo 'build failure' && exit 1;
 }
 
+cd $DIR
+git submodule update --init
+
 cd $DIR/d3-timeline
 npm install;
 sudo npm link;
