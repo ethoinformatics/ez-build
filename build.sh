@@ -7,7 +7,6 @@ failure(){
 }
 
 cd $DIR
-git submodule update --init
 
 cd $DIR/d3-timeline
 npm install;
@@ -17,7 +16,6 @@ cd $DIR/ethoinfo-framework
 npm link d3-timeline;
 npm install;
 sudo npm link;
-node bundler.js
 
 cd $DIR/ethoinfo-project-app
 npm link ethoinfo-framework;
