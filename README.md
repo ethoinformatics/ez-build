@@ -1,12 +1,10 @@
 ez-build
 ========
-1. clone the repo
-https://github.com/ethoinformatics/ez-build
+1. clone the repo `git clone git@github.com:ethoinformatics/ez-build`
 
-2. run the build.sh script
+2. `cd ez-build` and run `git submodule update --init`
 
-3. then you can cd in to ethoinfo-framework/ionic/
+3. then you can cd in to ethoinfo-projectapp/
 
-4. Now you can run the typical cordova commands like `cordova platform add android` and `cordova run android`
+4. Then you can run `python -m SimpleHTTPServer' and visit localhost:8000/
 
-Let me know if there are any problems or questions! (per Mike)
