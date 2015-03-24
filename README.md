@@ -4,7 +4,7 @@ ez-build
 
 2. `cd ez-build` and run `git submodule update --init`
 
-3. then you can cd in to ethoinfo-projectapp/
+3. then you can `cd ethoinfo-projectapp`
 
 4. Then you can run `python -m SimpleHTTPServer` and visit localhost:8000/
 
