@@ -6,5 +6,5 @@ ez-build
 
 3. then you can cd in to ethoinfo-projectapp/
 
-4. Then you can run `python -m SimpleHTTPServer' and visit localhost:8000/
+4. Then you can run `python -m SimpleHTTPServer` and visit localhost:8000/
 
