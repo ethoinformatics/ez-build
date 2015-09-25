@@ -23,5 +23,5 @@ npm install;
 sudo npm link;
 node bundler.js
 
-cd $DIR/ethoinfo-framework/ionic
+cd $DIR/ethoinfo-project-app/dist/www
 
