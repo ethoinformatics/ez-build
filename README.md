@@ -8,8 +8,9 @@ ez-build
 
 2. `cd ez-build` and run `git submodule update --init`
 
-3. then you can `cd ethoinfo-projectapp/etho/web`
-4. run `./build.sh`
+3. run `./build.sh`
+
+4. `cd ethoinfo-project-app/dist/www`
 
 4. Then you can run `python -m SimpleHTTPServer` and visit localhost:8000/ if you want to see it in a desktop browser.
 5. To see it on your Android device, `cd dist/`, then
@@ -22,4 +23,4 @@ ez-build
   *  You can add these by running `cordova plugin add <plugin name>`
 7. Plug in your Android device and `cordova run android`
 
-Check that your Android installation is up to date with your device, and delete any older versions of the app from your device before installing. 
+Check that your Android installation is up to date with your device, and delete any older versions of the app from your device before installing.
