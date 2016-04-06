@@ -9,12 +9,12 @@ ez-build
 2. `cd ez-build` and run `git submodule update --init`
 
 2a. You may need to manually update each of the submodules. It can't hurt to do it. Here's how:
- `cd d3-timeline
-  git pull origin master
-  cd ../ethoinfo-framework
-  git pull origin master
-  cd ../ethoinfo-project-app
-  git pull origin master`
+ `cd d3-timeline`
+ `git pull origin master`
+ `cd ../ethoinfo-framework`
+ `git pull origin master`
+ `cd ../ethoinfo-project-app`
+ `git pull origin master`
   
   then 
   `cd ..` to get back to the main ez-build directory.
