@@ -37,3 +37,6 @@ ez-build
 7. Plug in your Android device and `cordova run android`
 
 Check that your Android installation is up to date with your device, and delete any older versions of the app from your device before installing.
+
+To update your local copy of the project when changes are made by others, repeat steps 2a through 5.
+
