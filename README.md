@@ -27,7 +27,7 @@ then  `cd ..` to get back to the main ez-build directory.
 
 7. `cd ethoinfo-project-app/dist/www`
 
-8. Then you can run `python -m SimpleHTTPServer` and visit localhost:8000/ if you want to see it in a desktop browser. For python 3 users, you might need to type `python3` instead of `python`.
+8. Then you can run `python -m SimpleHTTPServer` and visit localhost:8000/ if you want to see it in a desktop browser. For python 3 users, you might need to run `python3 -m http.server`.
 9. To see it on your Android device, `cd dist/`, then
 10. `cordova platform add android`
   *  You might also need to add a few plugins. The plugin list is as follows:
