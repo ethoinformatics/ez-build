@@ -37,7 +37,8 @@ then  `cd ..` to get back to the main ez-build directory.
     * de.appplant.cordova.plugin.background-mode 0.6.4 "BackgroundMode"
   *  You can add these by running `cordova plugin add <plugin name>`
 11. Plug in your Android device and `cordova run android`
-12. To see it on your iOS device, follow the above steps with `cordova platform add ios`. Then `cd dist/platforms/ios` and run `cordova prepare`. You should then be able to build/run the Xcode project for a device or run it in a simulator of your choice.
+12. To see it on your iOS device, follow the above steps with `cordova platform add ios`. Then `cordova prepare ios`. You should then be able to build/run the Xcode project for a device or run it in a simulator of your choice.
+  *  These instructions previously recommended to follow `cordova platform add ios` with `cd platforms/ios` then `cordova prepare`. This seems to result in failure and is no longer recommended.
 
 Check that your Android installation is up to date with your device, and delete any older versions of the app from your device before installing.
 
